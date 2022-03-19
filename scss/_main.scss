@@ -1,0 +1,40 @@
+main {
+    height: auto;
+    background-image: $backgroundMain;
+    color: azure;
+    h2 {
+        text-align: center;
+        padding: 20px 0px;
+    }
+    h3 {
+        text-align: center;
+    }
+    .nosotros {
+        text-align: justify;
+        padding: 20px;
+    }
+    .card {
+        background-color: black;
+        color:azure;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .container {
+        padding: 20px;
+        justify-content: center;
+        align-items: justify;
+    }
+
+    
+}
+
+@media (max-width: 480px) {
+        .fotos {
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+    
+}

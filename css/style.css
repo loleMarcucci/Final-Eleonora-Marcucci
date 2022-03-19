@@ -1,0 +1,128 @@
+footer {
+  background-color: black;
+}
+footer .footerNavBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+}
+footer .navRedesFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  list-style: none;
+  margin-right: 20px;
+  padding: 20px;
+  border: 40px;
+}
+footer .itemNavRedes {
+  margin-right: 20px;
+}
+footer .firma {
+  text-align: center;
+  color: azure;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 480px) {
+  footer .footerNavBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .navRedesFooter {
+    display: flex;
+    justify-content: center;
+  }
+}
+header {
+  background-color: black;
+  height: 150px;
+}
+header .logo {
+  display: inline-block;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+.navBar .itemNavBar {
+  text-decoration: none;
+  color: azure;
+}
+
+.navRedes {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  list-style: none;
+  padding: 10px;
+  margin-right: 20px;
+}
+.navRedes .itemNavRedes {
+  border: 40px;
+  padding-left: 20px;
+}
+
+@media (max-width: 480px) {
+  .navBar {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+}
+.card {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  color: black;
+}
+
+main {
+  height: auto;
+  background-image: url(../asset/banner.jpg);
+  color: azure;
+}
+main h2 {
+  text-align: center;
+  padding: 20px 0px;
+}
+main h3 {
+  text-align: center;
+}
+main .nosotros {
+  text-align: justify;
+  padding: 20px;
+}
+main .card {
+  background-color: black;
+  color: azure;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+main .container {
+  padding: 20px;
+  justify-content: center;
+  align-items: justify;
+}
+
+@media (max-width: 480px) {
+  .fotos {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.cardShop {
+  display: grid;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=style.css.map */

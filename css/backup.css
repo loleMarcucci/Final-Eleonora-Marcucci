@@ -1,0 +1,111 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+header {
+    background-color: black;
+    height: 150px;
+}
+main {
+    height: auto;
+    background-image: url(./asset/banner.jpg);
+
+}
+.nosotros {
+    text-align: justify;
+    padding: 20px;
+}
+
+.container {
+    padding: 20px;
+    justify-content: center;
+    align-items: justify;
+}
+.logo {
+    display: inline-block;
+    
+
+}
+
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+
+}
+
+.navRedes {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    list-style: none;
+    padding: 10px;
+    margin-right: 20px;
+    
+
+}
+.itemNavBar {
+    text-decoration: none;
+    color: azure;
+}
+.itemNavRedes {
+    border: 40px;
+    padding-left: 20px;
+
+
+}
+.card {
+    color: aliceblue;
+    background-image: url(./asset/banner.jpg)
+}
+
+body {
+    background-image:;
+    color: aliceblue;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+footer {
+    background-color: black;
+}
+
+.footerNavBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+.navRedesFooter {
+    display: flex;
+    flex-direction: row; 
+    justify-content: right;
+    align-items: center;
+    list-style: none;
+    margin-right: 20px;
+}
+.firma {
+    text-align: center;
+    color: azure;
+    
+}
+@media (max-width: 480px){
+    .navBar { display: none;}
+    .logo {display: none;}
+    }
+    
+    .container { 
+        
+    }
+    .footerNavBar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
