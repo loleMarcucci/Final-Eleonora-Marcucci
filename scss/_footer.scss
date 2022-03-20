@@ -1,11 +1,12 @@
 footer {
-    background-color: pink;
+    background-color: black;
 
 .footerNavBar{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding: 10px;
+
 
 }
 .navRedesFooter {
@@ -22,6 +23,13 @@ footer {
 .itemNavRedes {
     margin-right: 20px;
 }
+
+.itemNavBar {
+    text-decoration: none;
+    color: azure;
+    
+}
+
 .firma {
     text-align: center;
     color: azure;

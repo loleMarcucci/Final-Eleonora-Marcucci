@@ -20,6 +20,10 @@ footer .navRedesFooter {
 footer .itemNavRedes {
   margin-right: 20px;
 }
+footer .itemNavBar {
+  text-decoration: none;
+  color: azure;
+}
 footer .firma {
   text-align: center;
   color: azure;
@@ -43,6 +47,10 @@ header {
 }
 header .logo {
   display: inline-block;
+}
+
+.navBarResponsive {
+  display: none;
 }
 
 .navBar {
@@ -74,8 +82,12 @@ header .logo {
     display: none;
   }
 
-  .logo {
+  div.logo {
     display: none;
+  }
+
+  .navBarResponsive {
+    display: inline;
   }
 }
 .card {

@@ -7,6 +7,10 @@ header {
     }
 }
 
+.navBarResponsive {
+    display: none;
+}
+
 .navBar {
     display: flex;
     flex-direction: row;
@@ -31,9 +35,13 @@ header {
         border: 40px;
         padding-left: 20px;
     }
+
+
+
 }
 @media (max-width: 480px){
     .navBar { display: none;}
-    .logo {display: none;}
+    div.logo {display: none;}
+    .navBarResponsive { display: inline;}
     }
 
