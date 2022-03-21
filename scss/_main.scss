@@ -27,14 +27,19 @@ main {
         align-items: justify;
     }
 
+    .historia {
+        font-size: large;
+    }
+
     
 }
 
 @media (max-width: 480px) {
-        .fotos {
+
+        .container {
             display: flex;
             flex-wrap: wrap;
-            
+            margin: 0 5px;
         }
     
 }
