@@ -1,56 +1,44 @@
-footer {
+.footer {
     background-color: black;
 
-.footerNavBar{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 10px;
+    &__col {
+        margin: 0 5rem;
+    }
 
+    &__a {
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
 
-}
-.navRedesFooter {
-    display: flex;
-    flex-direction: row; 
-    justify-content: right;
-    align-items: center;
-    list-style: none;
-    margin-right: 20px;
-    padding: 20px;
-    border: 40px;
-}
-
-.itemNavRedes {
-    margin-right: 20px;
-}
-
-.itemNavBar {
-    text-decoration: none;
-    color: azure;
-
+    &__a:hover {
+        font-size: 1.2rem;
+        color: $hoverLink;
+    }
 }
 
 .firma {
+    margin: 2rem 0;
+    padding-bottom: 2rem;
     text-align: center;
     color: azure;
-    padding-bottom: 20px;
-
-} 
+}
+footer {
+    background-color: $backgroundNavs;
 }
 
+
+
 @media (max-width: 480px){
-    footer {
-        .footerNavBar {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+    .footer {
+        &__col {
+            margin: 0;
         }
-        .navRedesFooter {
-            display: flex;
-            justify-content: center;
-        }
+
     }
-    
-    
+    .firma {
+        margin: 1rem;
+        padding: 1rem;
+        font-size: small;
+    }
 }
 

@@ -1,0 +1,36 @@
+.servicios {
+
+
+    .listas {
+        list-style: none;
+        margin: 2rem;
+    }
+
+    &__li {
+        padding: 0.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .pagos {
+        
+        margin-top: 3rem;
+
+        &__div {
+            
+        }
+
+        &__img {
+            margin: 0.5rem 0 2rem 9rem;
+            
+            
+        }
+
+    h5 {
+        text-align: center;
+    }
+        }
+        
+    
+}

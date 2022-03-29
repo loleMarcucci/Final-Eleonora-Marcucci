@@ -1,5 +1,25 @@
-.cardShop {
-    display: grid;
-    justify-content: center;
+.shop {
+    &__card {
+        height: 25rem;
+        padding: 0.5rem;
+    
+    }
+}
 
+.metodospago {
+    text-align: center;
+}
+
+@media (max-widht: 480px) {
+    .shop {
+        &__card {
+            width: 90%;
+        }
+
+        &__text {
+            width: 100%;
+        }
+    }
+    
+    
 }
