@@ -1,7 +1,7 @@
 h2 {
     text-align: center;
     letter-spacing: 1rem;
-    margin: 2rem;
+    @include margin(2rem);
 }
 .nosotros {
     margin-top: 2rem;
@@ -18,9 +18,14 @@ h2 {
         padding: 1.25rem;
     }
 
+    &__img {
+        border-radius: 5px;
+    }
+
 
 .barberia {
     margin: 2rem 0;
+    @include margin(2rem 0);
 
 
 
@@ -63,9 +68,10 @@ h2 {
         }
 
         &__img {
-            width: 90%;
-            height: 15rem;
+            
+            
             margin-bottom: 1rem;
+            @include altoAncho (22rem,15rem);
         }
     }
     
@@ -73,13 +79,13 @@ h2 {
         
 
         &__img {
-            width: 22rem;
-            height: 15rem;
+            @include altoAncho (22rem,15rem);
             margin-bottom: 1rem;
         }
 
         &__texto {
-            width: 22rem;
+            
+            @include altoAncho(22rem,"");
 
         }
 

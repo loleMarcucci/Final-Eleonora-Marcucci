@@ -3,7 +3,7 @@
 
     .listas {
         list-style: none;
-        margin: 2rem;
+        @include margin(2rem);
     }
 
     &__li {
@@ -23,14 +23,10 @@
 
         &__img {
             margin: 0.5rem 0 2rem 9rem;
-            
-            
         }
 
     h5 {
         text-align: center;
     }
         }
-        
-    
 }

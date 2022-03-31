@@ -11,7 +11,7 @@ nav  {
 .navegacion {
 
     &__li {
-        margin: 0 0 0 6rem;
+        @include margin(0 0 0 6rem);
     }
 
 a {
@@ -31,7 +31,7 @@ a:hover {
 @media (max-width: 480px) {
     .navegacion {
         &__li {
-            margin: 0;
+            @include margin(0);
         }
 
         .logo {

@@ -2,7 +2,7 @@
     background-color: black;
 
     &__col {
-        margin: 0 5rem;
+        @include margin(0 5rem);
     }
 
     &__a {
@@ -36,9 +36,9 @@ footer {
 
     }
     .firma {
-        margin: 1rem;
         padding: 1rem;
         font-size: small;
+        @include margin(1rem);
     }
 }
 

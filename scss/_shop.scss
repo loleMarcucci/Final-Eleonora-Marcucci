@@ -1,25 +1,42 @@
 .shop {
     &__card {
-        height: 25rem;
+        height: 16rem;
         padding: 0.5rem;
-    
+    }
+
+    .card-text {
+        font-size: 13px;
     }
 }
 
 .metodospago {
     text-align: center;
+    padding-top: 4rem;
+}
+
+.descuento {
+    color: rgb(12, 134, 63);
 }
 
 @media (max-widht: 480px) {
     .shop {
+        height: 50%;
+        
         &__card {
             width: 90%;
+            
+            
         }
 
         &__text {
             width: 100%;
         }
+
+        &__img {
+            height: 50%;
+        }
     }
-    
-    
+    .metodospago {
+        padding-top: 25rem;
+    }
 }
